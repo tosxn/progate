@@ -1,0 +1,109 @@
+@media all and (min-height: 490px){
+body{
+  font-family: Arial;
+ }
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #BE3144;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 40;  
+  
+}
+
+.header-container a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-right: 30px;
+  color: #fff;
+  height: 50px;
+  
+}
+
+.header-container a:hover{
+  background: #45567D;
+}
+  #welcome-section{
+    height: 100vh;
+  }
+.welcome-container{
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  text-align: center;
+  height: 490px;
+  background: #222225;
+  color: #fff;
+  padding-top: 120px;
+}
+.welcome-container h1{
+  font-size: 4.2rem;
+}
+.welcome-container p{
+  font-size: 1.5rem;
+  font-weight; 200;
+  margin-top: -50px;
+  color: #9A2F3E;
+}
+
+.project-container{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 570px;
+  background: #45567D;
+  color: white;
+}
+.project-header{
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.project-group{
+  display: flex;
+  justify-content: space-around;
+  background: rgba(222, 120, 12, 0.05);
+}
+.project-group-item{
+  text-align: center;
+  padding-top: 25px;
+}
+.project-group-item a img{
+  width: 80%;
+  height: auto;
+}
+
+.contact-container{
+  position: absolute;
+  top: 1061px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  background: #222225;
+  color: #fff;
+  padding-top: 120px;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.contact-container a:hover{
+  color: #BE3144;
+  transition: all 0.5s ease-out;
+    }
+}
